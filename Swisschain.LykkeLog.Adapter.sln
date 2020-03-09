@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swisschain.LykkeLog.Adapter", "src\Swisschain.LykkeLog.Adapter\Swisschain.LykkeLog.Adapter.csproj", "{27130075-B6FF-4D9D-AA05-EC726D2F9322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27130075-B6FF-4D9D-AA05-EC726D2F9322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27130075-B6FF-4D9D-AA05-EC726D2F9322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27130075-B6FF-4D9D-AA05-EC726D2F9322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27130075-B6FF-4D9D-AA05-EC726D2F9322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B401C909-32FC-4DF6-B72C-8343A17E0FB4}
+	EndGlobalSection
+EndGlobal
