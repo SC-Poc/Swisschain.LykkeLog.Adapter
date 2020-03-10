@@ -5,6 +5,7 @@ Adapter for legacy lykke logs system to Swisschain logs system
 
 If you have a legacy class with a dependency on `Lykke.Common.Log.ILogFactory`:
 
+```
 public class LegacyClass
 {
 	public LegacyClass(Lykke.Common.Log.ILogFactory logFactory)
@@ -14,6 +15,7 @@ public class LegacyClass
 
 	// ...
 }
+```
 
 You can adapt this class to use `Microsoft.Extensions.Logging.ILoggerFactory and use serilog as result.
 For it you need to have an instance of logFactory:
