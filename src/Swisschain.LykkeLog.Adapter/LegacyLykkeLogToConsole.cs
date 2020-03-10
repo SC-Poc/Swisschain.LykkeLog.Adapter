@@ -5,7 +5,7 @@ using Lykke.Common.Log;
 namespace Swisschain.LykkeLog.Adapter
 {
     public class LegacyLykkeLogToConsole : Common.Log.ILog
-    {
+    
         public void Log<TState>(Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, TState state, Exception exception, Func<TState, Exception, string> formatter) where TState : LogEntryParameters
         {
             Console.WriteLine($"{logLevel}\t{formatter.Invoke(state, exception)}");
