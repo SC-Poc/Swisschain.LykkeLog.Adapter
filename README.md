@@ -17,11 +17,15 @@ public class LegacyClass
 }
 ```
 
-You can adapt this class to use `Microsoft.Extensions.Logging.ILoggerFactory and use serilog as result.
+You can adapt this class to use `Microsoft.Extensions.Logging.ILoggerFactory` and use serilog as result.
 For it you need to have an instance of logFactory:
 
-`private Microsoft.Extensions.Logging.ILoggerFactory _logFactory`
+```
+private Microsoft.Extensions.Logging.ILoggerFactory _logFactory
+```
 
 To create instance of `LegacyClass` you can use next sintaxis:
 
-`var instance = new LegacyClass(_logFactory.ToLykke())`
+```
+var instance = new LegacyClass(_logFactory.ToLykke())
+```
