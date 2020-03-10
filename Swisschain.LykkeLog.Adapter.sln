@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swisschain.LykkeLog.Adapter", "src\Swisschain.LykkeLog.Adapter\Swisschain.LykkeLog.Adapter.csproj", "{27130075-B6FF-4D9D-AA05-EC726D2F9322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swisschain.LykkeLog.Adapter", "src\Swisschain.LykkeLog.Adapter\Swisschain.LykkeLog.Adapter.csproj", "{27130075-B6FF-4D9D-AA05-EC726D2F9322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{A65217BB-E334-4330-A7A3-C5B91B0C50B0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
