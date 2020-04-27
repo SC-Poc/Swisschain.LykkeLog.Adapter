@@ -31,5 +31,7 @@ private Microsoft.Extensions.Logging.ILoggerFactory _logFactory
 To create instance of `LegacyClass` you can use next sintaxis:
 
 ```cs
+using Swisschain.LykkeLog.Adapter;
+...
 var instance = new LegacyClass(_logFactory.ToLykke())
 ```
